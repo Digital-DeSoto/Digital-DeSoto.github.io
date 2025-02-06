@@ -25,14 +25,18 @@ body {
     position: relative;
     text-align: center;
     color: white;
+    max-height: 400px;
+    overflow: hidden;
   }
   .hero img {
     width: 100%;
     height: auto;
+    max-height: 300px;
+    object-fit: cover;
   }
   .hero h1, .hero p {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, 0.5);
