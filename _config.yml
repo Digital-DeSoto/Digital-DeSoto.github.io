@@ -1,0 +1,37 @@
+site_name: "Your AI Consulting Company"
+logo: "/assets/images/logo.png"
+color_scheme: "#0073e6"
+
+description: "We provide AI and data analytics consulting services to help businesses make smarter decisions."
+
+pages:
+  - title: "Home"
+    path: "index.md"
+  - title: "About"
+    path: "about.md"
+  - title: "Services"
+    path: "services.md"
+  - title: "Blog"
+    path: "blog.md"
+  - title: "Contact"
+    path: "contact.md"
+
+navigation:
+  - title: "Home"
+    link: "/"
+  - title: "About"
+    link: "/about"
+  - title: "Services"
+    link: "/services"
+  - title: "Blog"
+    link: "/blog"
+  - title: "Contact"
+    link: "/contact"
+
+footer:
+  company_name: "Your AI Consulting Company"
+  copyright: "© 2024 Your AI Consulting Company. All rights reserved."
+  social_links:
+    linkedin: "#"
+    twitter: "#"
+    github: "#"
